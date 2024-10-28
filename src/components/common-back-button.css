@@ -1,0 +1,27 @@
+/* Common Back Button Styles */
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .back-button i {
+    margin-right: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  

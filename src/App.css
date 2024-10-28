@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f9;
+}
+
+.navbar {
+  background-color: #2f6fac;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-container {
+  padding: 80px 20px 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organization-section {
+  background-color: #eaf2f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.ngo-info {
+  margin-bottom: 20px;
+}
+
+.ngo-info h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ngo-info p {
+  margin: 10px 0;
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.profile-photo {
+  margin-top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-photo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  background-color: #ecf0f1;
+  transition: border-color 0.3s ease;
+}
+
+.profile-photo img:hover {
+  border-color: #2980b9;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.card h4 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  color: #7f8c8d;
+  font-size: 24px;
+}
+
+.quick-actions-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quick-actions-section h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quick-actions button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin: 0 5px;
+}
+
+.quick-actions button:hover {
+  background: linear-gradient(90deg, #2980b9, #3498db);
+}

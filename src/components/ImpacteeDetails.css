@@ -1,0 +1,77 @@
+body {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.impactee-details {
+  color: #000; 
+}
+
+.impactee-details * {
+  color: inherit; 
+}
+.edit-button,
+.save-button,
+.cancel-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.impactee-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.impactee-photo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.edit-button:hover,
+.save-button:hover,
+.cancel-button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.back-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff; 
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,73 @@
+.history-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .history-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .no-history-message {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .history-item p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .history-item p:first-child {
+    font-weight: bold;
+  }
+  /* Back Button Container */
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button i {
+    margin-right: 10px;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  

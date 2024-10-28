@@ -1,0 +1,106 @@
+body {
+  background-color: #f5bcd9 !important;
+  color: #ffffff; 
+}
+
+.add-package-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #0000001a;
+  width: 100%;
+  max-width: 600px;
+  margin: 5px auto;
+  position: relative;
+}
+
+.add-package-container h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.package-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f9f9f9; 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.form-group label {
+  color: #2c3e50;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3498db; 
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #3498db; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; 
+}
+
+/* Back Button Container */
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.back-button i {
+  margin-right: 10px;
+}
+
+.back-button:hover {
+  background-color: #3498db; 
+}
